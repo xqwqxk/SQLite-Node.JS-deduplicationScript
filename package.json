@@ -1,0 +1,25 @@
+{
+  "name": "sqlite-data-cleanup",
+  "version": "1.0.0",
+  "description": "Sqlite data cleanup script w/ Node.JS wrap",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "cleanup": "node index.js",
+    "duplicates": "node scripts/run-script.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "sql",
+    "sqlite",
+    "data-cleaning",
+    "deduplication",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0"
+  }
+}
